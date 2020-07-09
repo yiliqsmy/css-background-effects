@@ -11,7 +11,7 @@
 		<link rel="stylesheet" href="css/sortable.min.css">
 		<script type="text/javascript" src="js/sortable.min.js"></script>
 		<style>
-				
+
 			html{
 				background: #eee;
 			}
@@ -184,7 +184,7 @@
 			}
 			.bg-line-rand{
 			  margin-top: 20px;
-			  width: 480px;
+			  /* width: 480px; */
 			  height: 60px;
 			  background-color: #eee;
 			  background-image: linear-gradient(90deg,#fb3 11px, transparent 0),
@@ -287,42 +287,11 @@
 			.stripe-bg > p{
 			  margin: 0;
 			}
-			.my-line{
-			  line-height: 1.4em;
-			  background: linear-gradient(gray,gray) no-repeat;
-			  background-size: 100% 1px;
-			  background-position: 0 1.15em;
-			  text-shadow: .05em 0 #fff, -.05em 0 #fff;
-			}
+			
 		</style>
 	</head>
 	<body>
-		<div class="dash-border black-theme">
-		hello world
-		</div>
-		<div class="radius-border black-theme"></div>
-		<div class="bg-stripe black-theme"></div>
-		<div class="bg-stripe black-theme bg-stripe-2"></div>
-		<div class="bg-stripe black-theme bg-stripe-3"></div>
-		<div class="bg-grid black-theme"></div>
-		<div class="bg-grid black-theme animate-grid"></div>
-		<div class="bg-dot black-theme animate-dot"></div>
-		<div class="bg-dot black-theme animate-dot2"></div>
-		<div class="bg-qi black-theme"></div>
-		<div class="bg-line-rand black-theme"></div>
-		<div class="bg-line-rand black-theme animate1"></div>
-		<div class="bg-dot-rand black-theme animate2"></div>
-		<div class="fold">折角效果哦</div>
-		<div class="fold linear">折角效果哦</div>
-		<div class="fold-1">折角效果哦</div>
-		<div class="stripe-bg">
-		  <p>hello you</p>
-		  <p>hello you</p>
-		  <p>hello you</p>
-		  <p>hello you</p>
-		  <p>hello you</p>
-		</div>
-		<div class=""><span class="my-line">i have your big apple.you have a too? hi hi hi.</span></div>
+
 		<main class="sortable">
 			<div class="container">
 				<div class="wrapper">
@@ -346,21 +315,134 @@
 					<div id="sortable" class="sjs-default">
 						<div data-sjsel="flatty">
 							<div class="card">
-								 <!-- <img class="card__picture" src="images/item-1.png" alt="">  -->
-								 <iframe class="card__picture" height="100px" src="../bird-house/index.html" ></iframe>
+								<!-- <img class="card__picture" src="images/item-1.png" alt="">  -->
+								<div class="dash-border black-theme">
+									hello world
+								</div>
 								<div class="card-infos">
-									<h2 class="card__title">鸟舍 1</h2>
+									<h2 class="card__title">1.实现内部虚线边框</h2>
 									<p class="card__text">
 										鼠标可操作
 									</p>
 								</div>
 							</div>
 						</div>
-		<div data-sjsel="funny">
+						<div data-sjsel="flatty">
 							<div class="card">
-								<iframe class="card__picture"   src="../unpkg-explode/index.html" ></iframe>
+								<div class="radius-border black-theme"></div>
 								<div class="card-infos">
-									<h2 class="card__title">旋转边框正方体 31</h2>
+									<h2 class="card__title">2.边框内圆角的实现</h2>
+									<p class="card__text">
+										鼠标可操作,点击播放旋转动画
+									</p>
+								</div>
+							</div>
+						</div>
+						<div data-sjsel="flatty">
+							<div class="card">
+								<div class="bg-stripe black-theme"></div>
+								<div class="bg-stripe black-theme bg-stripe-2"></div>
+								<div class="bg-stripe black-theme bg-stripe-3"></div>
+								<div class="card-infos">
+									<h2 class="card__title">3.实现条纹背景与进度条</h2>
+									<p class="card__text">
+										鼠标可操作,点击播放旋转动画
+									</p>
+								</div>
+							</div>
+						</div>
+						<div data-sjsel="funny">
+							<div class="card">
+								<div class="bg-grid black-theme"></div>
+								<div class="card-infos">
+									<h2 class="card__title">4.复杂的背景图案</h2>
+									<p class="card__text">
+										鼠标可操作,点击播放旋转动画
+									</p>
+								</div>
+							</div>
+						</div>
+						<div data-sjsel="funny">
+							<div class="card">
+								<div class="bg-dot black-theme animate-dot"></div>
+								<div class="bg-dot black-theme animate-dot2"></div>
+								<div class="card-infos">
+									<h2 class="card__title">4.复杂的背景图案</h2>
+									<p class="card__text">
+										鼠标可操作,点击播放旋转动画
+									</p>
+								</div>
+							</div>
+						</div>
+						<div data-sjsel="flatty">
+							<div class="card">
+								<div class="bg-qi black-theme"></div>
+								<div class="card-infos">
+									<h2 class="card__title">4.复杂的背景图案</h2>
+									<p class="card__text">
+										鼠标可操作,点击播放旋转动画
+									</p>
+								</div>
+							</div>
+						</div>
+						<div data-sjsel="funny">
+							<div class="card">
+								<div class="bg-line-rand black-theme"></div>
+								<div class="bg-line-rand black-theme animate1"></div>
+								<div class="bg-dot-rand black-theme animate2"></div>
+								<div class="card-infos">
+									<h2 class="card__title">4.复杂的背景图案</h2>
+									<p class="card__text">
+										鼠标可操作,点击播放旋转动画
+									</p>
+								</div>
+							</div>
+						</div>
+						<div data-sjsel="flatty">
+							<div class="card">
+								<div class="fold">折角效果哦</div>
+								<div class="fold linear">折角效果哦</div>
+								<div class="card-infos">
+									<h2 class="card__title">5.折角效果</h2>
+									<p class="card__text">
+										鼠标可操作,点击播放旋转动画
+									</p>
+								</div>
+							</div>
+						</div>
+						<div data-sjsel="flatty">
+							<div class="card">
+								<div class="fold-1">折角效果哦</div>
+								<div class="card-infos">
+									<h2 class="card__title">5.2内阴影圆折角效果</h2>
+									<p class="card__text">
+										鼠标可操作,点击播放旋转动画
+									</p>
+								</div>
+							</div>
+						</div>
+						<div data-sjsel="flatty">
+							<div class="card">
+								<div class="stripe-bg">
+									<p>hello you</p>
+									<p>hello you</p>
+									<p>hello you</p>
+									<p>hello you</p>
+									<p>hello you</p>
+								</div>
+								<div class="card-infos">
+									<h2 class="card__title">6.自适应文本的条纹背景</h2>
+									<p class="card__text">
+										鼠标可操作,点击播放旋转动画
+									</p>
+								</div>
+							</div>
+						</div>
+						<div data-sjsel="flatty">
+							<div class="card">
+								<div class=""><span class="my-line">i have your big apple.you have a too? hi hi hi.</span></div>
+								<div class="card-infos">
+									<h2 class="card__title">7.自定义的下划线实现</h2>
 									<p class="card__text">
 										鼠标可操作,点击播放旋转动画
 									</p>
